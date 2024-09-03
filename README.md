@@ -1,3 +1,4 @@
+<!-- <<<<<<< HEAD
 # Predicting how a customer will feel about a product before they even ordered it
 
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/zenml)](https://pypi.org/project/zenml/)
@@ -144,3 +145,7 @@ streamlit run streamlit_app.py
    ```bash
    zenml integration install mlflow -y
    ```
+<!-- =======
+# mlops-custsat-pred-pipeline-
+>>>>>>> a1020ed68adf059236bfd76144e15257a87266a6 --> -->
+"# mlops-custsat-pred-pipeline-" 
