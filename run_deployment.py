@@ -27,7 +27,7 @@ from typing import cast
 # Define command options
 DEPLOY = "deploy"
 PREDICT = "predict"
-DEPLOY_AND_PREDICT = "deploy_and_predict"
+DEPLOY_AND_PREDICT = "deploy_and_predict".
 
 @click.command()
 @click.option(
