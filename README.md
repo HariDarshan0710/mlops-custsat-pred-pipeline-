@@ -1,4 +1,3 @@
-<!-- <<<<<<< HEAD
 # Predicting how a customer will feel about a product before they even ordered it
 
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/zenml)](https://pypi.org/project/zenml/)
@@ -39,9 +38,9 @@ The project can only be executed with a ZenML stack that has an MLflow experimen
 
 ```bash
 zenml integration install mlflow -y
-zenml experiment-tracker register mlflow_tracker_customer --flavor=mlflow
-zenml model-deployer register mlflow_customer --flavor=mlflow
-zenml stack register mlflow_stack_customer -a default -o default -d mlflow_customer -e mlflow_tracker_customer --set
+zenml experiment-tracker register mlflow_tracker --flavor=mlflow
+zenml model-deployer register mlflow --flavor=mlflow
+zenml stack register mlflow_stack -a default -o default -d mlflow -e mlflow_tracker --set
 ```
 
 ## 📙 Resources & References
@@ -145,7 +144,3 @@ streamlit run streamlit_app.py
    ```bash
    zenml integration install mlflow -y
    ```
-<!-- =======
-# mlops-custsat-pred-pipeline-
->>>>>>> a1020ed68adf059236bfd76144e15257a87266a6 --> -->
-"# mlops-custsat-pred-pipeline-" 
