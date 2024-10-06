@@ -42,6 +42,7 @@ zenml experiment-tracker register mlflow_tracker --flavor=mlflow
 zenml model-deployer register mlflow --flavor=mlflow
 zenml stack register mlflow_stack -a default -o default -d mlflow -e mlflow_tracker --set
 ```
+![image](https://github.com/user-attachments/assets/e4361392-d01c-44c4-9085-19221f718419)
 
 ## 📙 Resources & References
 
